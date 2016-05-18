@@ -37,7 +37,7 @@
     "seneca": "2.0.1",
     "seneca-balance-client": "0.5.0",
     "seneca-mesh": "0.7.0",
-    "ews-javascript-api": "0.2.7",
+    "ews-javascript-api": "0.2.8",
     "httpntlm": "1.6.1"
   }
 }
