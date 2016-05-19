@@ -8,7 +8,7 @@ var config = {
   password: envs.EWS_MAIL_PASSWORD || 'password',
   domain: envs.EWS_MAIL_DOMAIN || 'skole.t-fk.no',
   mailUrl: envs.EWS_MAIL_OWA_URL || 'https://epost.vfk.no/owa/#path=/inbox',
-  mailLimit: envs.EWS_MAIL_LIMIT || 20 // number of unread mails to get
+  mailLimit: parseInt(envs.EWS_MAIL_LIMIT) || 20 // number of unread mails to get
 }
 
 module.exports = config
