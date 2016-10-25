@@ -35,7 +35,7 @@
     "tap": "7.1.2"
   },
   "dependencies": {
-    "seneca": "3.2.1",
+    "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
     "seneca-mesh": "0.9.0",
     "ews-javascript-api": "0.6.0",
