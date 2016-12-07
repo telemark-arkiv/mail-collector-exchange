@@ -9,6 +9,13 @@
     "email": "jonas.enge@gmail.com",
     "url": "https://github.com/maccyber"
   },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/telemark/mail-collector-exchange/issues"
   },
