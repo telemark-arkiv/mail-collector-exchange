@@ -1,8 +1,8 @@
 'use strict'
 
-var envs = process.env
+const envs = process.env
 
-var config = {
+module.exports = {
   url: envs.EWS_MAIL_URL || 'https://epost.vfk.no/ews/Exchange.asmx',
   username: envs.EWS_MAIL_USERNAME || 'domain\\username', // Must have double slash between domain and user
   password: envs.EWS_MAIL_PASSWORD || 'password',
@@ -10,5 +10,3 @@ var config = {
   mailUrl: envs.EWS_MAIL_OWA_URL || 'https://epost.vfk.no/owa/#path=/inbox',
   mailLimit: parseInt(envs.EWS_MAIL_LIMIT) || 20 // number of unread mails to get
 }
-
-module.exports = config
