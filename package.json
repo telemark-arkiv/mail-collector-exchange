@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Collect a user's unread mails from exchange",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Jonas Enge",
     "email": "jonas.enge@gmail.com",
