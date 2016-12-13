@@ -7,6 +7,7 @@ var Exchange = require('./lib/exchange')
 
 var options = {
   seneca: {
+    log: 'silent',
     tag: envs.MAIL_COLLECTOR_EXCHANGE_TAG || 'mail-collector-exchange'
   },
   mesh: {
