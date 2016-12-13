@@ -1,11 +1,11 @@
 'use strict'
 
-var Seneca = require('seneca')
-var Mesh = require('seneca-mesh')
-var envs = process.env
-var Exchange = require('./lib/exchange')
+const Seneca = require('seneca')
+const Mesh = require('seneca-mesh')
+const envs = process.env
+const Exchange = require('./lib/exchange')
 
-var options = {
+const options = {
   seneca: {
     log: 'silent',
     tag: envs.MAIL_COLLECTOR_EXCHANGE_TAG || 'mail-collector-exchange'
@@ -24,7 +24,8 @@ var options = {
     port: envs.TASKS_COLLECTOR_EXCHANGE_PORT || '8000'
   }
 }
-var Service = Seneca(options.seneca)
+
+const Service = Seneca(options.seneca)
 
 if (envs.MAIL_COLLECTOR_EXCHANGE_ISOLATED) {
   Service.listen(options.isolated)
