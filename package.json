@@ -1,6 +1,6 @@
 {
   "name": "mail-collector-exchange",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Collect a user's unread mails from exchange",
   "license": "MIT",
   "private": true,
@@ -44,10 +44,11 @@
     "tap": "8.0.1"
   },
   "dependencies": {
+    "ews-javascript-api": "0.8.0",
+    "httpntlm": "1.7.3",
     "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
-    "seneca-mesh": "0.9.0",
-    "ews-javascript-api": "0.8.0",
-    "httpntlm": "1.7.3"
+    "seneca-legacy-logger": "0.1.0",
+    "seneca-mesh": "0.9.0"
   }
 }

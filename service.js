@@ -1,5 +1,6 @@
 'use strict'
 
+const legacyLogger = require('seneca-legacy-logger')
 const Seneca = require('seneca')
 const Mesh = require('seneca-mesh')
 const envs = process.env
@@ -7,7 +8,9 @@ const Exchange = require('./lib/exchange')
 
 const options = {
   seneca: {
-    log: 'silent',
+    internal: {
+      logger: legacyLogger
+    },
     tag: envs.MAIL_COLLECTOR_EXCHANGE_TAG || 'mail-collector-exchange'
   },
   mesh: {
