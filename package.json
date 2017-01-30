@@ -1,6 +1,6 @@
 {
   "name": "mail-collector-exchange",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Collect a user's unread mails from exchange",
   "license": "MIT",
   "private": true,
