@@ -48,7 +48,7 @@
     "httpntlm": "1.7.3",
     "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
-    "seneca-legacy-logger": "0.1.0",
+    "seneca-legacy-logger": "0.1.2",
     "seneca-mesh": "0.9.0"
   }
 }
