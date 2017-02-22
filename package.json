@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "ews-javascript-api": "0.8.0",
-    "httpntlm": "1.7.3",
+    "httpntlm": "1.7.4",
     "seneca": "3.2.2",
     "seneca-balance-client": "0.6.0",
     "seneca-legacy-logger": "0.1.2",
